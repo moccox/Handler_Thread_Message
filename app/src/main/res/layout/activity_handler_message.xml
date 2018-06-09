@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.handler_thread_message.HandlerMessage"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/StartBt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="开始下载"
+        android:textSize="36sp"/>
+
+    <ProgressBar
+        android:id="@+id/PgBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:visibility="gone" />
+
+</LinearLayout>
